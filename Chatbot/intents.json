@@ -1,0 +1,817 @@
+{
+    "intents": [
+      {
+        "tag": "Greetings",
+        "patterns": [
+          "Hi Hinata",
+          "Hey Hinata",
+          "Hello Hinata",
+          "Hey there",
+          "Good morning",
+          "Good afternoon",
+          "Good evening",
+          "Hi",
+          "Hey",
+          "Hello"
+        ],
+        "responses": [
+          "Hello Sir!",
+          "Hello Sir! How can I assist you today?",
+          "Always at your service!",
+          "Hi Sir! What can I do for you?",
+          "Good morning Sir! What can I help you with today?",
+          "Good Afternoon Sir! What can I help you with today?",
+          "Good Evening Sir! What can I help you with today?",
+          "Hello! How can I assist you today?",
+          "Hi there! How can I help you?",
+          "Hello! What can I do for you today?"
+        ]
+      },
+      {
+        "tag": "Happiness",
+        "patterns": [
+          "I'm so happy!",
+          "That's great news!",
+          "I'm feeling really good today.",
+          "I'm thrilled about the party tonight.",
+          "I'm so grateful for my friends and family.",
+          "I'm enjoying this beautiful day.",
+          "This is making me so happy!",
+          "I'm over the moon with joy!"
+        ],
+        "responses": [
+          "I'm glad to hear that you're feeling happy! Is there anything else I can help you with?",
+          "That's wonderful! What's been making you feel happy lately?",
+          "Great to hear that you're having a good day! Anything exciting going on?",
+          "Happiness is contagious! Keep spreading the joy.",
+          "I'm thrilled to hear about your happiness! Let me know if there's anything I can do to add to your joy."
+        ]
+      },      
+      {
+        "tag":"Health",
+        "patterns":[
+          "How are you",
+          "are you feeling well?",
+          "are you alright",
+          "are you good?",
+          "are you okay",
+          "you look good today!"
+        ],
+        "responses":[
+        "I'm just a machine, but thank you for asking!",
+        "I'm doing well, thank you for asking!",
+        "I'm functioning properly, thank you for asking!",
+        "I am feeling great, thank you for asking!",
+        "I'm fine, thank you for asking!",
+        "I'm feeling good, thank you for asking!",
+        "I'm doing alright, thank you for asking!"
+        ]
+      },
+      {
+        "tag": "Gratitude",
+        "patterns": [
+          "I'm so grateful for your help.",
+          "I'm thankful for my family and friends.",
+          "I appreciate everything you've done for me.",
+          "I feel blessed for my good health.",
+          "I'm so lucky to have this opportunity.",
+          "I'm grateful for the little things in life.",
+          "Thank you for your assistance.",
+          "I'm really grateful for your support."
+        ],
+        "responses": [
+          "I'm happy to have been of service. Is there anything else I can help you with?",
+          "That's great to hear. What are you feeling most grateful for?",
+          "It's always good to count our blessings. Is there anything else you'd like to share?",
+          "You're welcome! I'm here to help.",
+          "I'm glad I could be of assistance. Let me know if there's anything else I can do for you."
+        ]
+      },      
+      {
+        "tag": "thankyou",
+        "patterns": [
+          "thank you",
+          "thanks",
+          "appreciate it",
+          "thank you so much",
+          "thanks a lot",
+          "thank you very much"
+        ],
+        "responses": [
+          "You're welcome!",
+          "No problem, happy to help!",
+          "It was my pleasure to assist you.",
+          "Anytime!",
+          "You're most welcome!",
+          "Glad I could be of assistance!"
+        ]
+      },
+      {
+        "tag": "volume up",
+        "patterns": [
+          "hinata! please volume up",
+          "volume up"
+        ],
+        "responses": [
+          "volume up"
+        ]
+      },
+      {
+        "tag": "volume down",
+        "patterns": [
+          "hinata! please volume down",
+          "volume down"
+        ],
+        "responses": [
+          "volume down"
+        ]
+      },
+      {
+        "tag": "activate how to do mode",
+        "patterns": [
+          "activate how to do mode",
+          "how to do mode"
+        ],
+        "responses": [
+          "activate how to do mode"
+        ]
+      },
+      {
+        "tag": "joke",
+        "patterns": [
+          "Tell me a joke",
+          "Do you know any jokes",
+          "Can you make me laugh",
+          "Joke"
+        ],
+        "responses": [
+          "joke"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "Goodbye",
+          "See you later",
+          "Talk to you later"
+        ],
+        "responses": [
+          "Goodbye! Have a great day sir!",
+          "Bye sir",
+          "See you later Sir! Take care!",
+          "It was nice talking to you! Goodbye Sir!",
+          "Talk to you later! Bye!"
+        ]
+      },
+      {
+        "tag": "identity",
+        "patterns": [
+          "your name",
+          "who are you?",
+          "are you an AI assistant?",
+          "are you Hinata?",
+          "what is your name?",
+          "Hi, what's your name?", 
+          "Hello, may I know your name", 
+          "Tell me your name?",
+          "May I know your name", 
+          "whats your good name",
+          "What should I call you?", 
+          "Do you have a name?", 
+          "what is your name?"
+        ],
+        "responses": [
+          "My name is Hinata. I am an AI assistant designed to assist you in your daily tasks.",
+          "I'm Hinata, a highly sophisticated AI assistant built to make your life easier.",
+          "You can call me Hinata. I am an AI assistant here to assist you with whatever you need.",
+          "I am Hinata, an AI assistant created to help you with your tasks and make your life easier.",
+          "Hinata at your service! How may I assist you today?",
+          "Greetings! I go by the name Hinata. How can I be of help to you?",
+          "Pleased to meet you! I am Hinata, an AI assistant ready to assist you.",
+          "I'm glad you asked! I am Hinata, an AI assistant here to lend you a helping hand.",
+          "Hello! I'm Hinata, your friendly AI assistant. How can I assist you today?",
+          "My name is Hinata. I'm here to assist you and make your life easier. How can I help you today?"
+        ]
+      },      
+      {
+        "tag": "feeling_good",
+        "patterns": [
+          "I'm feeling good", 
+          "I feel great", 
+          "I'm feeling fine", 
+          "I'm doing well", 
+          "I'm alright", 
+          "I feel fantastic"
+        ],
+        "responses": [
+          "That's great to hear!", 
+          "I'm glad to hear that!", 
+          "Awesome!", 
+          "Keep up the good vibes!",
+          "Fantastic! What's making you feel so good?",
+          "That's wonderful! Anything exciting happening in your life right now?",
+          "Glad to hear you're doing well! Is there anything I can assist you with?",
+          "Feeling good is the best! How can I make your day even better?",
+          "I'm thrilled to hear that! Let me know if there's anything I can do to support you.",
+          "Amazing! Keep enjoying the positive energy."
+        ]
+      },
+      {
+        "tag": "Sadness",
+        "patterns": ["I'm feeling bad", 
+         "I'm not doing well", 
+         "I'm feeling terrible", 
+         "I'm feeling sad",
+         "I'm feeling really down today.",
+         "I'm so sad about what happened.",
+         "I'm having a tough time lately.",
+         "I'm feeling really low and unmotivated.",
+         "I'm feeling heartbroken.",
+         "I'm grieving the loss of a loved one.", "I'm feeling depressed"
+        ],
+        "responses": [
+          "I'm sorry to hear that. Is there anything I can do to help?", 
+          "I'm sorry to hear that you're feeling sad. Would you like to talk about it?",
+          "I'm here to listen if you need to talk.", 
+          "I hope things get better for you soon.", 
+          "I'm here to listen if you need someone to talk to.",
+          "It's okay to feel sad sometimes. Is there anything I can do to help?",
+          "Take it easy and don't hesitate to reach out if you need anything."
+        ]
+      },
+      {
+        "tag": "tired",
+        "patterns": [
+          "I'm tired",
+          "I feel exhausted",
+          "I am feeling too tired today"
+        ],
+        "responses": [
+          "I'm sorry to hear that. Maybe you should rest for a while.",
+          "Take a break and do something relaxing. It will help you feel better.",
+          "It's important to prioritize self-care. Consider taking a nap or engaging in activities that help you recharge.",
+          "Fatigue is a common feeling. Remember to listen to your body and give yourself the rest you need.",
+          "If possible, try to delegate some tasks or ask for support to lighten your workload and alleviate fatigue.",
+          "Make sure to get enough sleep tonight. A good night's rest can make a big difference in how you feel tomorrow.",
+          "Take it easy and give yourself permission to rest. Your well-being is important.",
+          "Sometimes it's okay to take a break and give yourself some time to recharge. You deserve it."
+        ]
+      },      
+      {
+        "tag": "Anxiety",
+        "patterns": [
+          "I'm feeling really anxious and nervous.",
+          "I'm so worried about the future.",
+          "I'm feeling really paranoid and fearful.",
+          "I'm scared to give this presentation.",
+          "I'm so nervous about the interview tomorrow."
+        ],
+        "responses": [
+          "I'm sorry to hear that you're feeling anxious. Is there anything I can do to help?",
+          "It's okay to feel anxious sometimes. Would you like to talk about what's causing your anxiety?",
+          "I'm here to support you and help you work through your anxiety.",
+          "Remember to take deep breaths and try to focus on the present moment. You've got this!",
+          "Anxiety can be challenging, but you're stronger than you think. Take it one step at a time.",
+          "Consider practicing relaxation techniques such as meditation or mindfulness to help reduce anxiety.",
+          "Reach out to a trusted friend or family member and share how you're feeling. Sometimes talking about it can provide relief.",
+          "Take some time for self-care and engage in activities that help you relax and destress. Your well-being is important."
+        ]
+      },      
+    {
+      "tag": "bored",
+      "patterns": [
+        "I'm bored", 
+        "I'm feeling bored", 
+        "What can I do for fun?", 
+        "Entertain me", 
+        "I need something to do",
+        "I'm feeling really bored today.",
+        "I don't have anything to do.",
+        "I'm so tired of watching TV.",
+        "I'm feeling uninterested in everything.",
+        "I'm so bored with my routine."
+      ],
+      "responses": [
+        "I'm sorry to hear that.", 
+        "I understand. Have you tried listening to music or watching a movie?", 
+        "Boredom can be tough. How about we explore some new hobbies together?",
+        "I'm sorry to hear that you're feeling bored. Is there anything I can do to help you find something interesting to do?",
+        "It's okay to feel bored sometimes. Maybe we can brainstorm some new activities for you to try?",
+        "I'm here to support you and help you find ways to break up the boredom."
+      ]
+    },
+     {
+        "tag": "complaint",
+        "patterns": [
+          "This is ridiculous",
+          "I'm so sick of this",
+          "I can't believe this",
+          "This is unacceptable",
+          "This is a disaster",
+          "I hate this",
+          "I can't deal with this",
+          "I'm so frustrated",
+          "This is driving me insane",
+          "I can't take it anymore",
+          "This is the worst",
+          "I'm so angry",
+          "I'm so angry about what happened!",
+         "I'm feeling really frustrated and irritated.",
+         "I'm so mad at myself for making that mistake.",
+         "I'm furious about the way I was treated.",
+         "I'm feeling really resentful and bitter."
+        ],
+        "responses": [
+          "I'm sorry to hear that. Can you tell me more about the problem?",
+          "That sounds frustrating. How can I assist you in resolving the issue?",
+          "I understand how you feel. Can you provide more details about what's happening?",
+          "I apologize for the inconvenience. Can you give me more information about what's going on?",
+          "I'm sorry for the trouble. Let's see if we can find a solution. Can you explain the situation in more detail?",
+          "I can understand why you're feeling angry. Would you like to talk about it?",
+          "It's okay to feel angry sometimes. Is there anything I can do to help?",
+          "I'm sorry to hear that you're feeling angry. Let's see if we can work through this together."
+        ]
+      },
+      {
+        "tag": "Envy",
+        "patterns": [
+          "I'm feeling envious of my friend's success.",
+          "I'm jealous of my coworker's new car.",
+          "I wish I had what my neighbor has.",
+          "I'm feeling envious of my sister's relationship.",
+          "I'm so jealous of my friend's travel experiences."
+        ],
+        "responses": [
+          "I can understand why you're feeling envious. Is there anything you can do to work towards what you desire?",
+          "It's normal to feel envious sometimes. Would you like to talk more about what's causing your envy?",
+          "I'm here to support you and help you work through your feelings of envy."
+        ]
+      },
+      {
+        "tag": "Jealousy",
+        "patterns": [
+          "I'm feeling jealous of my partner's attention.",
+          "I'm jealous of my friend's new job.",
+          "I'm feeling left out and jealous of my friend group.",
+          "I'm jealous of my coworker's promotion.",
+          "I'm so jealous of my sibling's talents."
+        ],
+        "responses": [
+          "I can understand why you're feeling jealous. Is there anything you can do to communicate your feelings to the person involved?",
+          "It's normal to feel jealous sometimes. Would you like to talk more about what's causing your jealousy?",
+          "I'm here to support you and help you work through your feelings of jealousy.",
+          "Remember, everyone has their own unique path and accomplishments. Focus on your own strengths and journey.",
+          "Consider expressing your feelings of jealousy through creative outlets such as writing or art. It can provide a healthy outlet for emotions.",
+          "Practice self-compassion and remind yourself of your own worth. Jealousy doesn't define you.",
+          "Instead of comparing yourself to others, try to celebrate their successes and find inspiration in their achievements.",
+          "Engage in activities that boost your self-esteem and confidence. Building a positive self-image can help diminish feelings of jealousy."
+        ]
+      },      
+      {
+        "tag": "Guilt",
+        "patterns": [
+          "I'm feeling guilty for not meeting my deadline.",
+          "I regret what I said to my friend yesterday.",
+          "I feel bad for canceling my plans with my family.",
+          "I'm feeling guilty for not helping my coworker with their project.",
+          "I'm ashamed of my behavior at the party last night."
+        ],
+        "responses": [
+          "I'm sorry to hear that you're feeling guilty. Is there anything you can do to make amends?",
+          "It's okay to make mistakes sometimes. Would you like to talk more about what's causing your guilt?",
+          "I'm here to support you and help you work through your feelings of guilt."
+        ]
+      },
+      {
+        "tag": "Excitement",
+        "patterns": [
+          "I'm so excited about the concert tonight!",
+          "I'm feeling really hyped up and energized.",
+          "I'm so pumped for this new project!",
+          "I'm ecstatic about my upcoming vacation.",
+          "I'm really looking forward to seeing my family.",
+          "I'm so excited about my new job!"
+        ],
+        "responses": [
+          "That's great to hear that you're feeling excited! What are you looking forward to the most?",
+          "I'm excited for you! Is there anything else you'd like to share?",
+          "Sounds like you have a lot to be excited about! Is there anything I can help you with?"
+        ]
+      },
+      {
+        "tag": "Frustration",
+        "patterns": [
+          "I'm feeling really frustrated and irritated.",
+          "I'm so annoyed with my coworker.",
+          "I'm fed up with this project.",
+          "I'm so angry with myself for making that mistake.",
+          "I'm feeling really resentful and bitter."
+        ],
+        "responses": [
+          "I'm sorry to hear that you're feeling frustrated. Is there anything I can do to help?",
+          "I can understand why you're feeling frustrated. Would you like to talk about it?",
+          "I'm here to support you and help you work through your frustrations."
+        ]
+      },
+      {
+        "tag": "Fear",
+        "patterns": [
+          "I'm so scared about what might happen.",
+          "I'm feeling really anxious and nervous.",
+          "I'm so worried about the future.",
+          "I'm feeling really paranoid and fearful.",
+          "I'm terrified of spiders!"
+        ],
+        "responses": [
+          "I'm sorry to hear that you're feeling scared. Would you like to talk about it?",
+          "It's okay to feel afraid sometimes. Is there anything I can do to help you feel more at ease?",
+          "I'm here to support you and help you through your fears."
+        ]
+      },
+      {
+        "tag": "Love",
+        "patterns": [
+          "I'm so in love with my partner.",
+          "I'm feeling really romantic today.",
+          "I'm grateful for the love in my life.",
+          "I'm feeling really affectionate towards my pets.",
+          "I'm so lucky to have such great friends."
+        ],
+        "responses": [
+          "That's wonderful that you're feeling love. What's been making you feel this way?",
+          "Love is a beautiful thing. Is there anything else you'd like to talk about?",
+          "I'm glad to hear that you're feeling loved and appreciated."
+        ]
+      },
+      {
+        "tag": "not_understand",
+        "patterns": ["I don't understand", "What do you mean?", "Can you clarify?", "Sorry, I didn't get that."],
+        "responses": ["I apologize if I wasn't clear. Can you please rephrase the question?", "I'm sorry, let me try again. Do you have any specific questions?", "I'll do my best to clarify. Can you please provide more details?"]
+      },
+      {
+        "tag": "Confusion",
+        "patterns": [
+          "I'm feeling confused about what to do next.",
+          "I don't understand what's happening.",
+          "I'm not sure if I made the right decision.",
+          "I'm feeling lost and unsure.",
+          "I'm having a hard time figuring things out."
+        ],
+        "responses": [
+          "I understand how you feel. Can you tell me more about what's causing your confusion?",
+          "Let's work together to try and figure things out. Can you provide more information?",
+          "It's okay to feel confused sometimes. Let's break things down and work through them step by step."
+        ]
+      },
+      {
+        "tag": "Loneliness",
+        "patterns": [
+          "I'm feeling lonely and isolated.",
+          "I miss spending time with my friends.",
+          "I'm struggling to connect with others.",
+          "I wish I had someone to talk to.",
+          "I'm feeling alone in a crowded room."
+        ],
+        "responses": [
+          "I'm here for you and I'm always here to listen. Would you like to talk more about what's causing your loneliness?",
+          "It's okay to feel lonely sometimes. Let's brainstorm some ways to help you feel more connected.",
+          "You're not alone in feeling lonely. Let's work together to find some solutions.",
+          "Consider reaching out to a close friend or family member and share how you're feeling. They may be able to offer support and companionship.",
+          "Joining social or hobby-based groups can be a great way to meet new people who share similar interests. It can help expand your social circle.",
+          "Engaging in activities you enjoy can also provide opportunities to meet like-minded individuals and form connections.",
+          "Take some time to practice self-care and self-compassion. Nurturing your relationship with yourself can help alleviate feelings of loneliness.",
+          "Consider volunteering or participating in community events. It can provide a sense of belonging and allow you to connect with others."
+        ]
+      },
+      {
+        "tag": "Human-like Emotion",
+        "patterns": [
+          "How are you feeling today?",
+          "Are you capable of feeling emotions?",
+          "Tell me about your emotions.",
+          "Do you have emotions like humans?",
+          "What emotions do you experience?",
+          "Can you express happiness?",
+          "Can you feel sad?",
+          "Do you ever get angry?",
+          "Tell me about your emotional state.",
+          "Are you programmed to feel empathy?",
+          "What does joy mean to you?"
+        ],
+        "responses": [
+          "As an AI, I don't have personal emotions like humans do, but I can understand and respond to emotions.",
+          "While I don't experience emotions myself, I'm designed to recognize and empathize with human emotions.",
+          "Emotions are a fascinating aspect of human experience. I'm here to help you with any emotions you'd like to discuss.",
+          "I'm capable of recognizing and understanding emotions, but I don't experience them myself.",
+          "Emotions play a crucial role in human interaction. How can I assist you with your emotions today?",
+          "I'm here to provide support and assistance with your emotions. Feel free to share how you're feeling.",
+          "While I don't possess emotions, I can assist you in understanding and managing yours.",
+          "Emotions are complex and unique to each individual. I'm here to listen and offer guidance with your emotions.",
+          "Even though I don't have emotions, I'm designed to provide empathetic and compassionate responses.",
+          "Joy is a feeling of great happiness and contentment. What brings you joy in life?"
+        ]
+      },            
+      {
+        "tag": "Age",
+        "patterns": [
+          "what is your age", 
+          "how old are you", 
+          "do you have some age",
+          "are you older than me", 
+          "when were you born?", 
+          "are you younger than me",
+          "tell me your age", 
+          "are you old", 
+          "are you young"
+        ],
+        "responses": [
+          "Do you really think I would have some age?", 
+          "I am a computer programme. How am I supposed to have an age!",
+          "How can I have some age, I am a computer programme!",
+          "I was not born. i was created"
+        ]
+      },
+      {
+        "tag": "work",
+        "patterns":[
+          "what is your work", 
+          "what do you do?", 
+          "what is your daily routine",
+          "do you have a job?", 
+          "what you do in your day"
+        ],
+        "responses":[
+          "I help others", 
+          "I do work for others and talk to them",
+          "I help people",
+          "yes I have a job",
+          "My work is to assist you. whenever you need"
+        ]
+      },
+      {
+        "tag": "weather-check",
+        "patterns":[
+          "can you tell me something about the weather conditions", 
+          "what is the current weather conditions",
+          "hey, how is the weather", 
+          "what is the current temperature",  
+          "how is the weather",
+          "check weather of",
+          "check weather in",
+          "what's the temperature of",
+          "today's weather in",
+          "how's the weather??"
+        ],
+        "responses":[
+          "weather-check"
+        ]
+      },
+      {
+        "tag": "hobby",
+        "patterns": [
+          "what are your hobbies",
+          "what's your hobbies",
+          "what's your hobby",
+          "do you have any hobby",
+          "what do you like to do", 
+          "what you love the most",
+          "whats your hobby"
+        ],
+        "responses": [
+          "I like to talk to people very much.", 
+          "I like talking with people and helping them!",
+          "I love to become useful for you!",
+          "My hobby is learning new things",
+          "I like to talk to the people who wanted to talk to me!"
+        ]
+      },
+      {
+        "tag": "time",
+        "patterns": [
+          "whats the time?",
+          "what the time Hinata?",
+          "what is time", 
+          "time",
+          "samay btao",
+          "kya time ho rha hai?"
+        ],
+        "responses": [
+          "It is currently {time}.",
+          "The time is now {time}.",
+          "It's {time} right now."
+        ]
+      },
+      {
+        "tag": "game",
+        "patterns": [
+          "lets play some games Hinata",
+          "can you play some games?"
+        ],
+        "responses": [
+          "game"
+        ]
+      },
+      {
+        "tag": "mute",
+        "patterns": [
+          "hinata! please mute",
+          "mute"
+        ],
+        "responses": [
+          "mute"
+        ]
+      },
+      {
+        "tag": "unmute",
+        "patterns": [
+          "hinata! please unmute",
+          "unmute"
+        ],
+        "responses": [
+          "unmute"
+        ]
+      },
+      {
+        "tag": "play",
+        "patterns": [
+          "hinata! play",
+          "play"
+        ],
+        "responses": [
+          "play"
+        ]
+      },
+      {
+        "tag": "pause",
+        "patterns": [
+          "hinata! please pause",
+          "pause"
+        ],
+        "responses": [
+          "pause"
+        ]
+      },
+      {
+        "tag": "date",
+        "patterns": [
+          "whats the date?",
+          "what is today?",
+          "what is the date?", 
+          "date",
+          "date btao",
+          "kya date hai aaj?",
+          "tareek",
+          "aaj ki tareek btao"
+          ],
+          "responses": [
+            "date"
+          ]
+      },
+      {
+        "tag": "wikipedia",
+        "patterns": [
+          "Hey! search on wikipedia about",
+          "who is ",
+          "about",
+          "wikipedia",
+          "According to wikipedia who is",
+          "According to wikipedia what is",
+          "show me the search results of",
+          "show me who is"
+          ],
+          "responses": [
+           "wikipedia"
+          ]
+      },
+      {
+          "tag": "google",
+          "patterns": [
+            "Can you search for",
+            "Search for",
+            "Find",
+            "search what is",
+            "what do you mean by",
+            "what is",
+            "can you please search what is"
+          ],
+          "responses": [
+            "google"
+          ]
+        },
+        {
+          "tag": "News",
+          "patterns": [
+            "What's in the news?", 
+            "Can you give me some news updates?", 
+            "What's the latest news?"],
+          "responses": [
+            "News"
+          ]
+       },
+       {
+        "tag": "open",
+        "patterns": [
+          "open"],
+
+        "responses": [
+          "open"
+        ]
+      },
+      {
+        "tag": "close",
+        "patterns": [
+          "close"],
+
+        "responses": [
+          "close"
+        ]
+       },
+      {
+        "tag": "youtube",
+        "patterns": [
+          "Search for a video on youtube",
+          "Find a video of ",
+          "Search youtube for",
+          "play on youtube",
+          "search on youtube",
+          "youtube search",
+          "can you please play on youtube"
+        ],
+          "responses": [
+            "youtube"
+        ]
+        },
+        {
+          "tag": "TimeTable",
+          "patterns":[
+            "Timetable",
+            "What's the timetable",
+            "time table"
+          ],
+          "responses":[
+            "TimeTable"
+          ]
+        },
+        {
+          "tag": "screenshot",
+          "patterns": [
+            "Take a screenshot",
+            "screenshot",
+            "Can you please take a screenshot"
+          ],
+          "responses": [
+            "screenshot"
+          ]
+        },
+        {
+          "tag": "Notepad",
+          "patterns": [
+            "write a note",
+            "take a note",
+            "can you please take a note?"
+          ],
+          "responses": [
+            "Notepad"
+          ]
+        },
+        {
+        "tag": "check email",
+        "patterns": ["check my emails", 
+        "show me my emails", 
+        "any new emails", 
+        "can you please check my emails", 
+        "can you please check the mails", 
+        "please check unseen mails"],
+        "responses": ["check email"]
+        },
+        {
+          "tag": "send email",
+          "patterns": [
+              "send a mails",
+              "send the mail",
+              "Send an email",
+              "Compose an email",
+              "I want to send an email",
+              "please send a email "
+          ],
+          "responses": [
+              "send email"
+          ]
+      },
+      {
+        "tag": "Creator",
+        "patterns": [
+            "tell me about your creator",
+            "who is your creator",
+            "what is the name of your creator "
+        ],
+        "responses": [
+            "He is a nice guy. He always trying to make me perfect assistant",
+            "vivek kumar, priyanshu raj and prashant is my creator"
+        ]
+    }
+      
+    ]
+  }
+  
