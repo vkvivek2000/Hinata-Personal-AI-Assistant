@@ -30,6 +30,9 @@ Hinata, Activate How to Do mode!
 
 And many more.
 
+# License
+Hinata is open source software licensed under the MIT License.
+
 # Contact
 If you have any questions, suggestions, or feedback, feel free to reach out to us at vkvivek2000@gmail.com.
 
