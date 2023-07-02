@@ -82,8 +82,8 @@ def Youtube(term):
     Say("This May Also Help You Sir .")
 
 def check_email():
-    username = 'vkvivek2000@gmail.com'
-    password = 'oohiojgsuftwtotk'
+    username = 'Your_User_Name'
+    password = 'Your_Password'
 
     mail = imaplib.IMAP4_SSL('imap.gmail.com')
     mail.login(username, password)
@@ -116,69 +116,50 @@ def check_email():
 
 def wikipedia_search(query):
     try:
-        # Search Wikipedia for given query
         page = wikipedia.page(query)
 
-        # Retrieve summary of page
         summary = page.summary[0:500]
 
-        # Filter out irrelevant information from summary
-        filtered_summary = re.sub(r'\([^)]*\)', '', summary)  # remove text between parentheses
-        filtered_summary = re.sub(r'\[[^)]*\]', '', filtered_summary)  # remove text between brackets
+        filtered_summary = re.sub(r'\([^)]*\)', '', summary)  
+        filtered_summary = re.sub(r'\[[^)]*\]', '', filtered_summary)  
 
-        # Read filtered summary using text-to-speech engine
         print(filtered_summary)
         engine.say(filtered_summary)
         engine.runAndWait()
 
     except wikipedia.DisambiguationError as e:
-        # Handle ambiguous queries
         engine.say("There are multiple pages for this query, please select one of the following:")
         engine.runAndWait()
-        options = e.options[:5]  # get first 5 options to read
+        options = e.options[:5] 
         for i, option in enumerate(options):
             engine.say(f"{i + 1}: {option}")
         engine.runAndWait()
 
     except wikipedia.PageError:
-        # Handle missing pages
         engine.say("Sorry, I could not find a Wikipedia page for that query.")
         engine.runAndWait()
 
     except:
-        # Handle other exceptions
         engine.say("Sorry, I could not perform the search.")
         engine.runAndWait()
 
-    # else:
-    #     # Handle redirections
-    #     if page.title.lower() != query.lower():
-    #         engine.say(f"The query has been redirected to {page.title}. Here is the summary:")
-    #         engine.runAndWait()
-    #         wikipedia_search(page.title)
-
 def google_search(query):
     try:
-        # Perform Google search and retrieve top result URL
         search_results = googlesearch.search(query, num_results=1)
         url = next(search_results)
 
-        # Retrieve content from top result URL
         response = requests.get(url)
         soup = BeautifulSoup(response.text, 'html.parser')
         content = soup.get_text()
 
-        # Read top result using text-to-speech engine
         engine.say(content)
         engine.runAndWait()
 
     except StopIteration:
-        # Handle no search results
         engine.say("Sorry, I could not find any search results for that query.")
         engine.runAndWait()
 
     except:
-        # Handle other exceptions
         engine.say("Sorry, I could not perform the search.")
         engine.runAndWait()
 
@@ -317,7 +298,7 @@ def InputExecution(tag, query):
         city = str(query).replace("weather in", "").replace("what's the temperature in", "").replace(
             "what's the weather in", "").replace("what is the current weather conditions", "").replace(
             "today's weather in", "").replace("how's the weather??", "").strip()
-        api_key = "b6b3b1531a976fc63f37854242629b8d"
+        api_key = "Your_API_Key"
         data = get_weather_data(city, api_key)
 
         if data is not None:
@@ -331,7 +312,7 @@ def InputExecution(tag, query):
             Say("Sorry, I couldn't get the weather data for that city.")
 
     elif "News" in tag:
-        api_key = "e022bd086d464172b50f2f14d7fff022"
+        api_key = "Your_API_Key"
         data = get_news(api_key)
 
         if data is not None:
@@ -364,8 +345,8 @@ def InputExecution(tag, query):
         try:
             # login to your email account
             server = imaplib.IMAP4_SSL('imap.gmail.com')
-            email_address = "vkvivek2000@gmail.com"
-            password = "oohiojgsuftwtotk"
+            email_address = "Your_Email"
+            password = "Password"
             server.login(email_address, password)
 
             # select the inbox folder
